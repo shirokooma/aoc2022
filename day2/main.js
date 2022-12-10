@@ -3,6 +3,7 @@ let myArray = round.split("\n");
 
 let i = 0;
 while(i < myArray.length){
-    console.log(myArray[i]);
+    let myChar = myArray[i].charAt(2);
+    console.log(myChar);
     i++;
 }
