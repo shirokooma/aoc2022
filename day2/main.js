@@ -15,6 +15,20 @@ while(i < myArray.length){
         case "Z":
             myScore += 3;
     }
+    switch(myArray[i]){
+        case "A Y":
+        case "B Z":
+        case "C X":
+            myScore += 6;
+            break;
+        case "A X":
+        case "B Y":
+        case "C Z":
+            myScore += 3;
+            break;
+        default:
+            myScore += 0;
+    }
     i++;
 }
 console.log(myScore);
